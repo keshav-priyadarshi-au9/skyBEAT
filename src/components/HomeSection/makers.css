@@ -1,0 +1,69 @@
+.makers{
+    padding: 0px;
+    margin-top: 0px;
+    height: 100vh;
+    background-color: #F1F1F1;
+}
+
+.back_btn{
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: black;
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 41px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.back_btn:hover{
+    cursor: pointer;
+    background-color:  #3f51b5;
+    color: white;
+}
+.div_section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+#card1{
+    margin-right: 80px;
+}
+#card2{
+    margin-left: 80px;
+}
+.card-img-top{
+    height: 20rem;
+    width: 18rem;
+}
+.card{
+    overflow: hidden;
+    box-shadow: 0 15px 35px #3d2173a1;
+    transition: all ease 0.4s;
+}
+.card:hover{
+    box-shadow: none;
+    transform: scale(0.98) translateY(5px);
+}
+a{
+    margin: 0.5rem;
+}
+a:hover{
+    cursor: pointer;
+}
+@media screen and (max-width : 768px)
+{
+    .div_section{
+        display: block;
+    }
+    .card{
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+
+}
